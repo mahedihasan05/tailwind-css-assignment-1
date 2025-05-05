@@ -4,10 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/style.css" rel="stylesheet">
+  <title>IT Support</title>
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <header>
+    <nav class="flex justify-between px-6 md:px-16 items-center py-4 dark:bg-[#464646]">
+        <div>
+            <a href="#"><img src="./images/logo.png" alt="logo"></a>
+        </div>
+        <div class="">
+            <ul class="hidden md:flex  space-x-5 dark:text-white">
+                <li><a href="#" class="hover:text-orange-500">Home</a></li>
+                <li><a href="#" class="hover:text-orange-500">About Us</a></li>
+                <li><a href="#" class="text-orange-500">Upskill</a></li>
+                <li><a href="#" class="hover:text-orange-500">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="flex gap-4 items-center">
+            <div class="md:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6 dark:stroke-white">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
+                </svg>
+            </div>
+            <button
+                class="hidden md:block bg-[#F44335] py-2 px-3 rounded-md text-white hover:bg-orange-700 transition-all duration-300">
+                Register Interest
+            </button>
+            <button id="switch">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-8 dark:stroke-white hover:scale-105 transition duration-300 ">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                </svg>
+            </button>
+        </div>
+
+    </nav>
+  </header>
 </body>
 </html>
